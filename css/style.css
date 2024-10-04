@@ -8,3 +8,62 @@
 .debug{
     border: 1px solid red;
 }
+/*Colors:
+Light blue: #255ce8
+Black button: #222629
+Light grey: #f5f5f5
+Blue button: #7187d9
+
+
+
+
+*/
+:root{
+    --Light-blue: #255ce8;
+    --Black-button:#222629;
+    --Light-grey:#f5f5f5;
+    --Blue-button:#7187d9;
+}
+
+body{
+    padding: 0 10px;
+    font-family: 'Whitney', sans-serif;
+}
+
+header{
+    color: white;
+}
+
+.inline{
+    display:inline-block;
+}
+
+
+
+.background-color-header{
+    background-color: var(--Light-blue);
+}
+.background-odd-main-layers{
+    background-color: var(--Light-grey);
+}
+.background-footer{
+    background-color: var(--Black-button);
+}
+
+
+
+.whitney-normal{
+    font-family: 'Whitney', sans-serif;
+}
+
+.whitney-semibold{
+    font-family: 'Whitney Semibold', sans-serif;
+}
+
+.whitney-book{
+    font-family: 'Whitney Book', sans-serif;
+}
+
+.whitney-light{
+    font-family: 'Whitney Light', sans-serif;
+}
