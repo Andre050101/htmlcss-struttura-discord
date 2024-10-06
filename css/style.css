@@ -34,10 +34,39 @@ header{
     color: white;
 }
 
-.inline{
-    display:inline-block;
+.head{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 30px;
+    height: 30px;
+    align-items: center;
+}
+.hero{
+    display:flex;
+    height: 23px;
+    margin-left: 25%;
+    margin-right: 25%;
 }
 
+.h-main{
+    height: 23px;
+}
+
+.sez1main{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.images{
+    padding-right: 60%;
+}
+.place{
+    padding-right: 100%;
+}
+.meet{
+    padding-right: 40%;
+}
 
 
 .background-color-header{
